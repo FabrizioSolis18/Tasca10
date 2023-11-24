@@ -1,0 +1,19 @@
+def segona_ocurrencia(l,e)
+    a = l.count(e)
+    if a==0
+        print("No hi ha ocurrència d'aquest element")
+    elif a==1: 
+       print("La primera ocurrència de l'element està en la posició {}".format(l.index(e)))
+    elif a=2:
+       print("Hi ha més de d'una ocurrència de {}".format(e))
+    elif a>2:
+      print("Hi ha més d'una ocurrència de {}",format(e))
+      p = l.index(e)
+      so = l.index(e,(p-1))
+      to = l.index(e,(so+1))
+       print(so)
+else:
+    print("Només hi ha zero o una ocurrència")
+l=(1, 4, 2, (1, 3, 3), 3, 4 , 2, 1, 4, 2, 1)
+x = int(input("Elegeix l'element que vol cercar la 2a ocurrencia: "))
+segona_ocurrencia(l,x)

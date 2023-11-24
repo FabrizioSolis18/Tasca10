@@ -1,0 +1,4 @@
+a=int(input("Introdueixi el primer valor: "))
+b=int(input("Introdueixi el segon valor: "))
+c = a % b
+print("L'operación {} i {} és {}".format(a, b, c))

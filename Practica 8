@@ -1,0 +1,10 @@
+a=[]
+for m in range(3):
+    a.append(int(input("Introdueix un número: "))
+print(a)
+
+***
+a=int(input("Introdueixi el primer valor"))
+b=int (input("Introdueixi el primer valor: "))
+if a >= b:
+    print('{} és major o igual que {}'.format(a,b))

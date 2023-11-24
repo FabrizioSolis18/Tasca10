@@ -1,0 +1,10 @@
+# Demana a l'usuari que introdueixi els tres valors
+valor1 = float(input("Introdueix el primer valor: "))
+valor2 = float(input("Introdueix el segon valor: "))
+valor3 = float(input("Introdueix el tercer valor: "))
+
+# Suma els tres valors
+suma = valor1 + valor2 + valor3
+
+# Mostra el resultat
+print("La suma dels tres valors és:", suma)

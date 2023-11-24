@@ -1,0 +1,9 @@
+def major (n,m)
+    if n>m:
+        return n
+    else:
+        return m
+a = int (input("Intro el 1r número: "))
+b = int (input("Intro el 2n número: "))
+c = major (a,b)
+print("El major de {} i {}")
