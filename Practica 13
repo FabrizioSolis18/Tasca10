@@ -1,0 +1,10 @@
+def gran(num1, num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+
+# Exemples de prova
+print(gran(5, 10))   # Output: 10
+print(gran(-3, 0))   # Output: 0
+print(gran(7, 7))    # Output: 7
