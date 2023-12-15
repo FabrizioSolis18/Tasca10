@@ -1,3 +1,24 @@
-if > 18 (major de edad)
-elif < 18 (menor de edad)
-else = 18 (tiene 18 años)
+edat = input(19“)
+	if (edat <18):
+		print(“Ets menor d’edat”)
+	else:
+		print(“Ets major d’edat”)
+
+	edat = input(“19“)
+	if edat <18:
+		print(“Ets menor d’edat”)
+	elif edat>18:
+		print(“Ets major d’edat”)
+	else:
+		print(“Tens 18 anys”)
+
+	def major_edat():
+		edat = input(“19“)
+	if edat <18:
+		print(“Ets menor d’edat”)
+	elif edat>18:
+		print(“Ets major d’edat”)
+	else:
+		print(“Tens 18 anys”)
+	# Ús de la funció
+	major_edat()

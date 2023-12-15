@@ -1,3 +1,3 @@
-nom = input("Nom: ")
-cognom = input("cognom: ")
-print("Hola, {} {}".format(nom, cognom))
+nom = input("Introdueix el nom: Fabrizio")
+cognom = input("Introdueix cognom: Solis")
+print("Hola", nom, cognom)
